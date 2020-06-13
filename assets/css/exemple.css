@@ -3,7 +3,8 @@
 }
 
 .row > .col,
-.row > [class^=col-] { /* a todo col que seja imediatamente filho de row*/
+.row > [class^=col-],
+.bg { /* a todo col que seja imediatamente filho de row*/
     padding-top: .75rem;
     padding-bottom: .75rem;
     background-color: rgba(243, 117, 32, .15);

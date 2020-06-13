@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/exemple.css">
+    <title>Flex d-flex</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="d-flex bg"> <!-- container flex-box  elementos dentro dessa div serão alinhados com display-flex -->
+            <div class="bg p-2">1</div> <!-- bg é a classe criada no nosso css para ver o background dos elementos -->
+            <div class="bg p-2">2</div> <!-- p-2 é um utilitario do bootstrap que aplica um padding, 2 é tamanho desse padding (m seria marging) -->
+        </div>
+
+        <div class="d-inline-flex bg"> <!-- diferentemente do d-flex o inline pai ocupa apenas o espaço total dos elementos filhos -->
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+        </div>
+
+        <div class="d-inline-flex bg"> <!-- adiconar outro inline o manterá na mesma linha de outro inline -->
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+        </div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
