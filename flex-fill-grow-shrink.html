@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/exemple.css">
+    <title>Flex d-flex</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- preenche o elemento pai com espaço igualitário entre os elementos filhos -->
+        <div class="d-flex bg">
+            <div class="bg flex-fill p-2">Hcode treinamentos</div>
+            <div class="bg flex-fill p-2">2</div>
+            <div class="bg flex-fill p-2">3</div>
+        </div>
+
+        <!-- preenche o elemento pai com o máximo possível de espaço, levando em conta os outros elementos -->
+        <div class="d-flex bg">
+            <div class="bg flex-grow-1 p-2">1</div>
+            <div class="bg p-2">Hcode treinamentos</div>
+            <div class="bg p-2">3</div>
+        </div>
+
+        <!-- encolhe o elemento para que ele use o mínimo espaço possível -->
+        <div class="d-flex bg">
+            <div class="bg flex-shrink p-2">Hcode treinamentos</div>
+            <div class="bg w-100 p-2">2</div> <!-- w-100 preenche 100% do espaço possível para o elemento, levando em conta os outros elementos -->
+            <div class="bg p-2">3</div>
+        </div>
+
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
