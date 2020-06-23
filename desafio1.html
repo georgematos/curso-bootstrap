@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/desafio1.css">
+    <title>Flex d-flex</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <header class="d-flex flex-row align-items-center header-bg">
+                <div class="bg p-2 col-sm-3">Pizzaria</div>
+                <div class="bg p-2 col-sm-9 d-flex justify-content-end flex-grow-1">
+                    <ul class="list-inline remove-margin">
+                        <li class="list-inline-item">Home</li>
+                        <li class="list-inline-item">Cardápio</li>
+                        <li class="list-inline-item">Pizzas Tradicionais</li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="d-flex flex-row">
+                <div class="col-sm-3 p-2 left-menu-bg">
+                    <ul class="list-unstyled">Links
+                        <li>Home</li>
+                        <li>Cardápio</li>
+                        <li>Pizzas Tradicionais</li>
+                        <li>Pizzas Nobres</li>
+                        <li>Pizzas Doces</li>
+                        <li>Promoções</li>
+                        <li>Pedido Online</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>
+                <div class="col p-2 middle">
+                    <h1>Home</h1>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo corrupti earum eius
+                    tempora deleniti pariatur numquam? Veniam debitis, optio dolore sint eius, libero labore aspernatur,
+                    assumenda perspiciatis voluptate quis esse?
+                </div>
+            </div>
+
+            <footer class="d-flex flex-row flex-wrap footer-bg">
+                <div class="d-flex flex-column col-sm-6 bg">
+                    <div class="ul">Links
+                        <div class="li">Home</div>
+                        <div class="li">Cardápio</div>
+                        <div class="li">Contato</div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column col-sm-6 bg">
+                    <div class="ul">Pizzas
+                        <div class="li">Tradicionais</div>
+                        <div class="li">Nobres</div>
+                        <div class="li">Doces</div>
+                    </div>
+                </div>
+                <div class="bg d-flex flex-grow-1 justify-content-center">
+                    pizzaria.com.br
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.container {
+    padding-top: 2rem;
+}
+
+/* .row > .col,
+.row > [class^=col-], */
+.bg { /* a todo col que seja imediatamente filho de row*/
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    /* background-color: rgba(243, 117, 32, .15); */
+    /* border: 1px solid rgba(243, 117, 32, .2); */
+}
+
+.middle {
+    height: 60vh;
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.remove-margin {
+    margin: 0;
+}
+
+.header-bg {
+    color: #FFFFFF;
+    background-color: #f37520;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer-bg {
+    color: #FFFFFF;
+    background-color: #454545;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left-menu-bg {
+    background-color: #EDEDED;
+    padding-left: 10%;
+    padding-right: 10%;
+}
