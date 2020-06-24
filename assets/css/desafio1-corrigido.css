@@ -15,13 +15,13 @@ footer {
     background-color: #454545;
     padding: 2rem;
     color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
-/* @media (min-width: 576px) {
-    section, 
-    section > .row,
-    section > .row > [class^=col-],
-    section > .row nav {
-        height: calc(100vh - 292px);
+@media (min-width: 576px) {
+    section .row nav {
+        height: calc(100vh - 236.75px);
     }
-} */
+}
