@@ -20,7 +20,7 @@ footer {
     width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     section .row nav {
         height: calc(100vh - 236.75px);
     }
